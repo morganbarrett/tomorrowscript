@@ -1,0 +1,11 @@
+{
+	"extends": "@tsconfig/node16/tsconfig.json",
+	"exclude": ["node_modules", "packages/astViewer"],
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"tms-nodes": ["./packages/nodes/src"],
+			"tms-parser": ["./packages/parser/src"]
+		}
+	}
+}
